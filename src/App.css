@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 80vh;
+  background: url("../src/img/hipertextual-netflix.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .header-opacity {
+  width: 100%;
+  height: 80vh;
+  background-color: rgba(0, 0, 0, 0.521);
+  -webkit-box-shadow: 0px 10px 5px #353232;
+          box-shadow: 0px 10px 5px #353232;
+}
+
+header img {
+  margin-top: 5px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .last-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+}
+
+header nav .last-div select {
+  width: 120px;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid grey;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.671);
+  color: white;
+  font-weight: 900;
+}
+
+header nav .last-div button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  margin-left: 30px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  border-radius: 10px;
+}
+
+header .header-aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-top: 150px;
+}
+
+header .header-aside h3 {
+  font-size: 55px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+header .header-aside h5 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+header .header-aside h6 {
+  margin-top: 30px;
+  font-size: 19px;
+  text-align: center;
+}
+
+header .header-aside div {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55%;
+}
+
+header .header-aside div input {
+  width: 90%;
+  height: 65px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  font-size: 19px;
+}
+
+header .header-aside div button {
+  width: 280px;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header .header-aside div button i {
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-bottom: 10px solid #353232;
+  line-height: 65px;
+}
+
+main h1 {
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+
+main h6 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+main .video-div video {
+  width: 500px;
+  height: 400px;
+}
+
+aside {
+  width: 100%;
+  height: 105vh;
+  background-color: black;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+aside h1 {
+  color: white;
+  font-size: 56px;
+}
+
+aside .panel-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  color: white;
+  margin-top: 50px;
+}
+
+aside .panel-group .panel {
+  width: 60%;
+  background-color: #3b3838;
+  font-size: 23px;
+  border: none;
+}
+
+aside .panel-group .panel-heading {
+  background-color: #3b3838;
+  padding: 30px;
+}
+
+aside .panel-group .panel-heading a {
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+}
+
+aside #aside-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+aside #aside-footer h3 {
+  font-size: 19px;
+}
+
+aside #aside-footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+aside #aside-footer div input {
+  width: 80%;
+  padding-left: 20px;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+aside #aside-footer div button {
+  width: 200px;
+  background-color: red;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer #title {
+  font-size: 17px;
+  color: rgba(128, 128, 128, 0.788);
+}
+
+footer .ull {
+  width: 70%;
+  height: 60vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-top: 20px;
+}
+
+footer ul a {
+  text-decoration: none !important;
+  color: rgba(128, 128, 128, 0.788);
+}
+
+footer h1 {
+  margin-top: 0px;
+  color: red;
+}
+
+@media (max-width: 750px) {
+  .header-aside div button {
+    font-size: 14px !important;
+  }
+  main h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  main h6 {
+    font-size: 20px;
+    text-align: center;
+  }
+  main .video-div video {
+    width: 300px;
+    height: 200px;
+  }
+  aside {
+    height: auto;
+    text-align: center;
+  }
+  aside #aside-footer div {
+    width: 90%;
+  }
+  footer .ull {
+    margin-left: -50px;
+  }
+  footer .ull ul {
+    margin-left: 39px;
+  }
+}
+/*# sourceMappingURL=App.css.map */
